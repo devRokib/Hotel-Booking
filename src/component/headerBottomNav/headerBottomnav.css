@@ -1,0 +1,27 @@
+.bottomnavContainer{
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    align-items: center;
+}
+.bottomNav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 34px;
+}
+.bottomNavlink{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 18px;
+    
+    padding: 12px 16px;
+    border-radius: 30px;
+}
+.bottomNavlink.active{
+    border: 1px solid #ddd;
+}
+.bottomNavlink:hover{
+    background: #0b9789;
+}

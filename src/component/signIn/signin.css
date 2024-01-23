@@ -1,0 +1,83 @@
+.signinSection{
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+   
+}
+.fromContainer{
+    
+    max-width: 800px;
+    margin:20px auto;
+    background: #f3f3f3;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+   display: flex;
+   flex-direction: column;
+
+}
+.fromContainer form{
+   border-radius: 5px;
+}
+
+.signinSection input#email {
+    padding: 5px;
+    height: 40px;
+    width: 360px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.fromContainer input#password {
+    padding: 5px;
+    height: 40px;
+    width: 360px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.fromContainer input#confirmPassword {
+    padding: 5px;
+    height: 40px;
+    width: 360px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.signinSection h1 {
+    margin-bottom: 30px;
+}
+.signinSection input[type="submit"] {
+    border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+.signinSection span {
+    font-size: 17px;
+    margin-top: 11px;
+}
+.signinSection ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 16px;
+}
+.signinSection ul .signup{
+    display: flex;
+    font-size: 30px;
+    border: 1px solid #222;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    transition: all .3s;
+}
+.signinSection ul .signup:hover{
+    background: #020202;
+    color: #fff;
+    border-radius: 2px;
+}

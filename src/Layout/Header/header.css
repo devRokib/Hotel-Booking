@@ -1,0 +1,150 @@
+.headerSection{
+    background: #122033;
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+}
+.headerContainer{
+    display: flex;
+    align-items: center;
+    max-width: 1150px;
+    margin: auto;
+}
+.headerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.headerTop .logo{
+    display: flex;
+    align-items: center;
+    
+}
+.headerTop .menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.headerTop .menu a{
+    font-size: 18px;
+}
+.currency{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.currencyFlag{
+    font-size: 25px;
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+}
+.customerService{
+    display: flex;
+    font-size: 100px;
+}
+.headerSign{
+    background: #ffd43a;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #020202;
+}
+.headerSearch{
+    max-width: 1150px;
+    margin: auto;
+}
+.headerSearchContainer {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    border: 3px solid #ffd43a;
+    height: 30px;
+    padding: 25px 0px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1150px;
+    margin:0 auto;
+    border-radius: 5px;
+    background: #f3f3f3;
+}
+.headerSeachItem{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color:lightgray;
+    font-size: 18px;
+    position: relative;
+}
+.headerSearchText{
+    cursor: pointer;
+}
+input.headerSeachInput {
+    border: none;
+    outline: none;
+}
+.headerSeachItem span{
+    display: flex;
+    align-items: center;
+    
+}
+button.SearchBtn {
+    display: inline-block;
+    border: none;
+    background: cornflowerblue;
+    outline: none;
+    height: 100%;
+    padding: 11px 25px;
+    font-size: 18px;
+    text-align: end;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.datePicker {
+    position: absolute;
+    top: 100%;
+}
+.options{
+    position: absolute;
+    top: 38px;
+    left: 0;
+    background: #fff;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 1px 2px 15px rgba(0,0,0, .3);
+    padding: 10px;
+}
+.optionItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    width: 200px;
+    margin: 8px 0;
+    
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.optionCounterButton{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #00f;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}

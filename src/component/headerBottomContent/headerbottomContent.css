@@ -1,0 +1,13 @@
+.HeaderBottomTitleContentContainer{
+    max-width: 1150px;
+    margin: 0px auto;
+    padding: 50px 0;
+    color: #fff;
+}
+.HeaderBottomTitleContentContainer h1{
+    font-size: 38px;
+}
+.HeaderBottomTitleContentContainer p{
+    font-size: 22px;
+    margin: 10px 0;
+}
